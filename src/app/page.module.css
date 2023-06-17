@@ -21,7 +21,16 @@
 .img{
   width: 90%;
   height: 500px;
-  object-fit: cover;
+  object-fit: contain;
+  animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(-15px);
+    } to {
+        transform: translateY(0px) scale(1.03);
+    }
 }
 
 .desc {
