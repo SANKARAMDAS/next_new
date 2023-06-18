@@ -8,7 +8,7 @@ const { Schema } = require("mongoose");
         unique: true,
         required: true,
     },
-    email:{
+    email:{ 
         type: String,
         unique: true,
         required: true,
@@ -22,6 +22,6 @@ const { Schema } = require("mongoose");
  });
 
  //in mongo we have to send the model,
-export default mongoose.model('User', userSchema);
+export default mongoose.model("User", userSchema);
 
 //basically it's gonna create a USer collection on our db
