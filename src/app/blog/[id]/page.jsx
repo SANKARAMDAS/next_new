@@ -1,14 +1,27 @@
 import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image'
+import { notFound } from 'next/navigation'
 
-const BlogPost = () => {
+async function getData(id){
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`,{cache: 'no-cache'});
+
+  if(!res.ok) {
+  //  throw new Error('Failed to fetch data');
+  return notFound()
+  }
+
+  return res.json();
+}
+
+const BlogPost =async ({params}) => {    //(using params)passing id according to the posts to server
+  const data = await getData(params.id)
   return (
     <div className={styles.container}>
       <div className={styles.top}>
         <div className={styles.info}>
           <h1 className={styles.title}>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          {data.title}
           </h1>
           <p className={styles.desc}>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
