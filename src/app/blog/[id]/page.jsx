@@ -14,6 +14,14 @@ async function getData(id){
   return res.json();
 }
 
+export async function generateMetadata({params}) {
+  const post = await getData(params.id)
+  return{
+    title: post.title,
+    description: post.desc,
+  };
+}
+
 const BlogPost =async ({params}) => {    //(using params)passing id according to the posts to server
   const data = await getData(params.id)
   return (
