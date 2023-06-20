@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) Full Stack Blog Project(Nextjs, React, MongoDB) using AppRoute.
+This is a [Next.js](https://nextjs.org/)Full Stack Blog Project(Nextjs, React, MongoDB) using AppRoute.
 ![2023-06-20](https://github.com/SANKARAMDAS/next_new/assets/31897843/9c94ada3-7e26-4535-9a21-d878ea5e551e)
 ![2023-06-20 (1)](https://github.com/SANKARAMDAS/next_new/assets/31897843/1ddeb761-d845-4700-9e11-57bbcb6d942a)
 
