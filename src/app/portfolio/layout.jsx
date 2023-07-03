@@ -5,7 +5,7 @@ const Layout = ({children}) => {
   return (
     <div>
         <h1 className={styles.mainTitle}>
-            Our Works
+          Our Works
         </h1>
         {children}
     </div>
