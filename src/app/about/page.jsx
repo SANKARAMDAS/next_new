@@ -23,7 +23,7 @@ const About = () => {
           <h1 className={styles.title}>Who Are we?</h1>
           <p className={styles.desc}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            quae dolor, optio voluptatibus magnam iure esse tempora beatae. A
+            quae dolor, optio voluptatibus magnam iure esse tempora beatae.A
             suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea
             eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Ducimus quae dolor, optio voluptatibus magnam iure esse tempora
