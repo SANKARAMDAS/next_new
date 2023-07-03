@@ -105,7 +105,7 @@ const Dashboard = () => {
                     className={styles.delete}
                     onClick={() => handleDelete(post._id)}
                   >
-                    X
+                     X
                   </span>
                 </div>
               ))}
