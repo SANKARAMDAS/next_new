@@ -22,7 +22,7 @@ export async function generateMetadata({params}) {
   };
 }
 
-const BlogPost =async ({params}) => {    //(using params)passing id according to the posts to server
+const BlogPost =async ({params}) => {   //(using params)passing id according to the posts to server
   const data = await getData(params.id)
   return (
     <div className={styles.container}>
