@@ -1,1 +1,1 @@
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'password123';
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'YOURPASSWORD';
