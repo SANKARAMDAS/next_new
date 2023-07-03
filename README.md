@@ -14,7 +14,7 @@ yarn dev
 pnpm dev
 
 
-Make Sure to create MongoDB & Google auth credential and use it on the .env file. 
+Make Sure to create MongoDB & Google auth credentials and use them on the .env file. 
 ```
 
 
