@@ -11,7 +11,6 @@ const getData = (cat) => {
   if(data){
     return data
   }
-
   return notFound()
 }
 
